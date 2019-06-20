@@ -1,5 +1,5 @@
 With this program LightC.
-I tried to create an editor for a C compiler with some Material Design in mind.
+I tried to create an editor for a C compiler with some Material Design Components.
 Have used Tcc C compiler as sole C compiler
 
 How to run:-
