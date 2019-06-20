@@ -7,6 +7,7 @@ use git clone
 or download the zip file and unzip it
 
 now Click on LightC.jar file
+Hurra, its up.
 
 Prerequisite:-
 Java 8 installed
