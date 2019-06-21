@@ -1,13 +1,11 @@
-With this program LightC.
-I tried to create an editor for a C compiler with some Material Design Components.
-Have used Tcc C compiler as sole C compiler
+# Light C
+Light C is a Lightweight C program editor cum compiler written in pure Java
 
-How to run:-
-use git clone 
+# How to run:-
+git clone 
 or download the zip file and unzip it
 
-now Click on LightC.jar file
+Now Click on LightC.jar file
 Hurray, its up and running.
-
-Prerequisite:-
-Java 8 installed
+# Prerequisite:-
+Java 8 or latest versions
