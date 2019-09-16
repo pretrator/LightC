@@ -1,0 +1,17 @@
+    #pk{       
+        -fx-background-image: url("../../../rec/mybackground.png");
+        -fx-background-repeat: stretch;   
+        -fx-background-size: 1280 718;
+        -fx-background-position: center center;
+        -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+    }
+    #addnewworkspace{
+        -fx-background-color:#EDE9F5;
+    }
+    #quikrun{
+        -fx-background-color:#EDE9F5;
+    }
+    #opnwrkspac{
+        -fx-background-color:#EDE9F5;
+    }
+   

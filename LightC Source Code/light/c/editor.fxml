@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="zs" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.95" prefHeight="669.0" prefWidth="1262.0" style="-fx-background-color: #D7F1F8;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="light.c.EditorController">
+   <children>
+      <Pane layoutX="1.0" layoutY="3.0" prefHeight="39.0" prefWidth="1264.0">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+         <children>
+            <JFXButton layoutX="6.0" layoutY="3.0" onAction="#compile" prefHeight="30.0" prefWidth="103.0" text="Compile" />
+         </children>
+      </Pane>
+      <ScrollPane layoutX="-1.0" layoutY="589.0" prefHeight="47.0" prefWidth="1260.0" />
+      <TextArea fx:id="lbl" editable="false" layoutX="1.0" layoutY="588.0" prefHeight="79.0" prefWidth="1260.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextArea>
+      <JFXTextArea fx:id="txtfld" focusColor="#f9fafc" layoutY="42.0" prefHeight="538.0" prefWidth="1260.0" unFocusColor="#eee9e9">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="20.0" />
+         </padding></JFXTextArea>
+   </children>
+</AnchorPane>
