@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="189.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="light.c.AddnewwrkspaceController">
+   <children>
+      <Label layoutY="-3.0" prefHeight="75.0" prefWidth="601.0" style="-fx-background-color: #4287F6;" text="                                                     Add new Workspace" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="tf" focusColor="#4287f6" labelFloat="true" layoutX="127.0" layoutY="95.0" prefHeight="25.0" prefWidth="344.0" unFocusColor="#57b0f8" />
+      <JFXButton fx:id="submit" layoutX="419.0" layoutY="150.0" onAction="#submit" text="Submit" />
+      <JFXButton fx:id="cancel" cancelButton="true" layoutX="489.0" layoutY="151.0" onAction="#cancel" text="Cancel" />
+   </children>
+</AnchorPane>

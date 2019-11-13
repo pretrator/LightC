@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="apc" prefHeight="436.0" prefWidth="248.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="light.c.OpenwrkspaceController">
+   <children>
+      <JFXListView fx:id="list" onMouseClicked="#onlisclik" prefHeight="403.0" prefWidth="248.0" />
+      <JFXButton layoutX="186.0" layoutY="407.0" onAction="#clo" text="Close" />
+   </children>
+</AnchorPane>
